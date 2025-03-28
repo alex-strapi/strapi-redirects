@@ -189,7 +189,7 @@ const HomePage = () => {
   }, [debouncedSearchTerm]);
 
   return (
-    <Main>
+    <Main style={{maxWidth: 'calc(100vw - 75px)'}}>
       <Layouts.Header
         primaryAction={
           <Flex gap={4}>
@@ -222,7 +222,7 @@ const HomePage = () => {
         )}
       />
       <Layouts.Content>
-        <Flex gap={4} direction="column" alignItems="stretch">
+        <Flex gap={4} direction="column" alignItems="stretch" marginBottom={8}>
           <Box paddingBottom={4}>
             <Flex gap={4} alignItems="center">
               <SearchForm>
