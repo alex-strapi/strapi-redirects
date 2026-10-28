@@ -2,7 +2,7 @@ import { useIntl } from 'react-intl';
 import * as qs from 'qs';
 import { useState, useEffect } from 'react';
 import { useDebounce } from 'use-debounce';
-import { Layouts, useFetchClient, useNotification } from '@strapi/admin/strapi-admin';
+import { Layouts, useFetchClient, useNotification } from '@strapi/strapi/admin';
 import {
   Main,
   Flex,

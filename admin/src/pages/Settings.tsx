@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useIntl } from 'react-intl';
-import { useFetchClient, Layouts } from '@strapi/admin/strapi-admin';
+import { useFetchClient, Layouts } from '@strapi/strapi/admin';
 import {
   Main,
   Box,

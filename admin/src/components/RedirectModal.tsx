@@ -1,7 +1,7 @@
 import * as yup from 'yup';
 import React, { useState, useEffect } from 'react';
 import { useIntl } from 'react-intl';
-import { Form, useFetchClient } from '@strapi/admin/strapi-admin';
+import { Form, useFetchClient } from '@strapi/strapi/admin';
 import { Modal, Button, Grid, Field, Checkbox, Box, Flex } from '@strapi/design-system';
 import { Check } from '@strapi/icons';
 

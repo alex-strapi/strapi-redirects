@@ -5,7 +5,6 @@ export default [
     handler: 'settingsController.getContentTypes',
     config: {
       policies: [],
-      auth: false,
     },
   },
   {
@@ -14,7 +13,6 @@ export default [
     handler: 'settingsController.getSettings',
     config: {
       policies: [],
-      auth: false,
     },
   },
   {
@@ -23,7 +21,6 @@ export default [
     handler: 'settingsController.updateSettings',
     config: {
       policies: [],
-      auth: false,
     },
   },
   {
@@ -32,7 +29,6 @@ export default [
     handler: 'redirectsController.findOne',
     config: {
       policies: [],
-      auth: false,
     },
   },
   {
@@ -41,7 +37,6 @@ export default [
     handler: 'redirectsController.findAll',
     config: {
       policies: [],
-      auth: false,
     },
   },
   {
@@ -50,7 +45,6 @@ export default [
     handler: 'redirectsController.create',
     config: {
       policies: [],
-      auth: false,
     },
   },
   {
@@ -59,7 +53,6 @@ export default [
     handler: 'redirectsController.update',
     config: {
       policies: [],
-      auth: false,
     },
   },
   {
@@ -68,7 +61,6 @@ export default [
     handler: 'redirectsController.delete',
     config: {
       policies: [],
-      auth: false,
     },
   },
   {
@@ -77,7 +69,6 @@ export default [
     handler: 'redirectsController.import',
     config: {
       policies: [],
-      auth: false,
     },
   },
 ];

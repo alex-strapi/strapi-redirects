@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { useIntl } from 'react-intl';
-import { useFetchClient } from '@strapi/admin/strapi-admin';
+import { useFetchClient } from '@strapi/strapi/admin';
 import {
   Modal,
   Button,
